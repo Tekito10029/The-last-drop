@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ToOtherScene : MonoBehaviour
+public class ToGameOverScene : MonoBehaviour
 {
 
 	void Start()
@@ -11,12 +11,6 @@ public class ToOtherScene : MonoBehaviour
 
 	void Update()
 	{
-
-		if (Input.GetKeyDown("g"))
-		{
-			SceneManager.LoadScene("SampleScene");
-		}
-
 		if (Input.GetKeyDown("h"))
 		{
 			SceneManager.LoadScene("GameOverScene");
